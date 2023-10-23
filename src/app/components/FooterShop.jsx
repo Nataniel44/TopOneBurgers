@@ -24,7 +24,7 @@ const FooterShop = ({
         } shadow border border-yellow-400 border-4`}
         initial={{ y: 550 }}
         animate={{ y: isOpen ? 0 : 365 }}
-        transition={{ type: "tween", ease: "easeOut", duration: 0.2 }}
+        transition={{ type: "tween", ease: "easeOut", duration: 0.1 }}
       >
         <div className="text-center m-2 flex items-center justify-between ps-3 pe-3">
           <span className="font-sans text text-lg flex items-center justify-center gap-2 wd ">

@@ -4,7 +4,7 @@ import Header from "./Header";
 const Main = () => {
   return (
     <>
-      <main className="h-screen  flex items-center justify-center flex-col p-6 ">
+      <main className="h-screen  flex items-center justify-center flex-col">
         <motion.section
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -15,12 +15,12 @@ const Main = () => {
           <div className="flex flex-col justify-center items-center gap-5">
             <img
               src="/img-redux/33.png"
-              className="rounded-full w-48 md:w-3/12 border border-yellow-400 border-4 shadow-md"
+              className="rounded-full w-48  md:w-2/12 border border-yellow-400 border-4 shadow-md"
               alt=""
             />
 
             <div className="flex items-center">
-              <h1 className="text-4xl md:text-7xl text-center font-normal text">
+              <h1 className=" text-4xl md:text-5xl text-center font-normal text">
                 Top One Burger's
               </h1>
             </div>

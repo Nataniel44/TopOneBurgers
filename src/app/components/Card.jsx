@@ -9,7 +9,7 @@ const Card = ({ img, name, price, agregarAlCarrito }) => {
           alt=""
         />
       </div>
-      <div className="md:w-56 flex flex-col  md:items-end text-white text-md  gap-2 p-3">
+      <div className="md:w-56 flex flex-col  md:items-end text-white text-md  gap-2 p-2">
         <div className="flex flex-col items-end">
           <h3 className="text-end">{name}</h3>
           <span className="">$ {price}</span>
