@@ -29,12 +29,12 @@ const Nav = ({ children }) => {
 
   return (
     <>
-      <div
-        className={`bg-yellow-500 p-2 transition-transform sticky top-0 ${
+      <nav
+        className={`bg-yellow-500 p-2 transition-transform sticky top-0 shadow-lg ${
           isNavbarVisible ? "" : "hidden-navbar"
         }`}
       >
-        <nav className=" flex items-center justify-between flex-wrap p-2   ">
+        <div className=" flex items-center justify-between flex-wrap p-2   ">
           <div className="flex items-center flex-shrink-0 text-white mr-6 gap-3">
             <span className="pl-1 text-2xl font-bold tracking-tighter sm:text-2xl xl:text-2xl/none text-black font-normal">
               Top One Burgers
@@ -84,8 +84,8 @@ const Nav = ({ children }) => {
             </div>
             <div></div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
       {children}
     </>
   );

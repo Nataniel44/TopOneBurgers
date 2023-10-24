@@ -29,13 +29,10 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <NavbarProvider>
-          <div className="bg-yellow-500">
-            <div className=" ">{children}</div>
-          </div>
+          <Nav />
+          <main className="vh-91 ">{children}</main>
         </NavbarProvider>
-        
       </body>
-      
     </html>
   );
 }

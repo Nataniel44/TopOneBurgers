@@ -1,15 +1,15 @@
 import Link from "next/link";
 const Card = ({ img, name, price, agregarAlCarrito }) => {
   return (
-    <div className="bg-black flex items-center justify-between pl-3 md:p-0  md:flex-col md:w-56 rounded-lg p-2 shadow-lg shadow-black border-white border-2">
-      <div className=" ">
+    <section className="bg-black flex items-center justify-between pl-3 md:p-0  md:flex-col md:w-56 rounded-lg p-2 shadow-lg shadow-black border-white border-2">
+      <article className=" ">
         <img
           src={img}
           className="w-28 h-24 md:w-56 md:h-56 object-cover rounded-lg md:rounded-t-lg md:rounded-b-none "
           alt=""
         />
-      </div>
-      <div className="md:w-56 flex flex-col  md:items-end text-white text-md  gap-2 p-2">
+      </article>
+      <article className="md:w-56 flex flex-col  md:items-end text-white text-md  gap-2 p-2">
         <div className="flex flex-col items-end">
           <h3 className="text-end">{name}</h3>
           <span className="">$ {price}</span>
@@ -20,8 +20,8 @@ const Card = ({ img, name, price, agregarAlCarrito }) => {
         >
           Agregar al carrito
         </button>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 };
 

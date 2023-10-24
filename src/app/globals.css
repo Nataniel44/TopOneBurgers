@@ -68,7 +68,20 @@
   border: none;
   cursor: pointer;
 }
+.t1 {
+  color: #ffca0a;
 
+  text-shadow: 0 -1px 4px #000000;
+}
+.vh-91 {
+  height: 90.5vh;
+}
+.t {
+  color: #ffca0a;
+
+  text-shadow: 0 -1px 4px #000000, 0 -2px 10px #ff0, 0 -10px 20px #ff8000,
+    0 -18px 40px #f00;
+}
 .wd {
   width: 200px;
 }
