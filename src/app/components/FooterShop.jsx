@@ -36,18 +36,18 @@ const FooterShop = ({
       <motion.div
         className={`menu footer ${
           isOpen ? "open" : ""
-        } shadow border border-yellow-400 border-4`}
-        initial={{ y: 750 }}
-        animate={{ y: isOpen ? 0 : 365 }}
+        } shadow border border-yellow-400 border-2`}
+        initial={{ y: 550 }}
+        animate={{ y: isOpen ? 1 : 390 }}
         transition={{ type: "tween", ease: "easeOut", duration: 0.1 }}
       >
         <div className="text-center m-2 flex items-center justify-between ps-3 pe-3">
-          <span className="font-sans text text-lg flex items-center justify-center gap-2 wd ">
+          <span className="font-sans text-lg flex items-center justify-center gap-2 wd bg-yellow-500 rounded-2xl ">
             Total: ${price}
           </span>
 
           <button
-            className="button1 bg-black rounded-full p-2 pr-6 pl-6 pb-3 md:pr-3 md:pl-3 text-sm shadow-md text "
+            className="button1 bg-black rounded-full p-2 pr-6 pl-6 pb-3 md:pr-3 md:pl-3 text-sm shadow-md text m-1"
             onClick={toggleMenu}
           >
             {isOpen ? (

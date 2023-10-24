@@ -80,34 +80,28 @@ const Page = () => {
   return (
     <>
       <div>
-        <motion.div
-          initial={{ opacity: 0, x: "100%" }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: "-100%" }}
-          transition={{ duration: 0.3, ease: "easeInOut" }} // Ajusta la duración y la curva de la transición según tus preferencias
-        >
-          <section className="flex  items-center ">
-            <article className="mx-auto text-center w-full md:w-9/12 mb-15 flex flex-col items-center bg-yellow-500">
-              <h2 className="text-5xl text-center font-unica p-2">
-                Hamburguesas
-              </h2>
-              <figure className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:justify-items-center w-6/6 gap-3 pb-20 p-5">
-                {hamburguesasData.map((data) => (
-                  <div key={data.nombre}>
-                    <Card
-                      img={data.imagen}
-                      name={data.nombre}
-                      price={data.precio}
-                      agregarAlCarrito={() =>
-                        agregarAlCarrito(data.precio, data.nombre)
-                      }
-                    ></Card>
-                  </div>
-                ))}
-              </figure>
-            </article>
-          </section>
-        </motion.div>
+        <section className="flex  items-center ">
+          <article className="mx-auto text-center w-full md:w-9/12 mb-15 flex flex-col items-center bg-yellow-500">
+            <h2 className="text-5xl text-center font-unica p-2">
+              Hamburguesas
+            </h2>
+            <figure className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:justify-items-center w-6/6 gap-3 pb-20 p-5">
+              {hamburguesasData.map((data) => (
+                <div key={data.nombre}>
+                  <Card
+                    img={data.imagen}
+                    name={data.nombre}
+                    price={data.precio}
+                    agregarAlCarrito={() =>
+                      agregarAlCarrito(data.precio, data.nombre)
+                    }
+                  ></Card>
+                </div>
+              ))}
+            </figure>
+          </article>
+        </section>
+
         <FooterShop
           eliminarHamburguesa={eliminarHamburguesa}
           hamburguesas={hamburguesasSeleccionadas}
