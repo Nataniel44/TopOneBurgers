@@ -80,6 +80,7 @@ const Page = () => {
   return (
     <>
       <Nav />
+      
       <section className="flex  items-center bg-yellow-500">
         <div className="mx-auto text-center w-4/5 md:w-9/12 mb-20 flex flex-col items-center">
           <h2 className="text-5xl text-center font-unica p-2">Hamburguesas</h2>

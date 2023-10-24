@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Header from "./Header";
 import Image from "next/image";
+import Link from "next/link";
 const Main = () => {
   return (
     <>
@@ -14,8 +15,8 @@ const Main = () => {
           className="flex flex-col items-center gap-5"
         >
           <div className="flex flex-col justify-center items-center gap-5">
-            <Image
-              src="./img-redux/33.png"
+            <img
+              src="/img-redux/33.png"
               className="rounded-full w-48  md:w-2/12  border-yellow-400 border-4 shadow-md"
               alt=""
             />
@@ -27,7 +28,14 @@ const Main = () => {
             </div>
           </div>
         </motion.section>
-        <Header />
+        <section className="p-6">
+          <Link
+            href="/shop"
+            className="bg-red-600 text-white rounded-full p-2 pr-3 pl-3  text-md shadow-md"
+          >
+            Comprar ahora!
+          </Link>
+        </section>
       </main>
     </>
   );

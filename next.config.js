@@ -1,7 +1,7 @@
 // next.config.js
 module.exports = {
   // Otras configuraciones...
-  
+
   reactStrictMode: true,
   trailingSlash: true,
   images: {
@@ -9,5 +9,5 @@ module.exports = {
     path: "",
   },
   // Agrega esta línea para habilitar la exportación estática
-  output: "export",
+  output: "out",
 };

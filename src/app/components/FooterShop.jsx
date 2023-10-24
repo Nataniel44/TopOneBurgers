@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavbar } from "./NavbarContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const FooterShop = ({
   price,
@@ -15,6 +15,21 @@ const FooterShop = ({
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  useEffect(() => {
+    const closeFooter = () => {
+      setIsOpen(false);
+    };
+
+    if (isOpen) {
+      document.addEventListener("click", closeFooter);
+    } else {
+      document.removeEventListener("click", closeFooter);
+    }
+
+    return () => {
+      document.removeEventListener("click", closeFooter);
+    };
+  }, [isOpen]);
 
   return (
     <div>
