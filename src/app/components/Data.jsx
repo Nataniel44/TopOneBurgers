@@ -2,14 +2,14 @@ const hamburguesasData = [
   {
     nombre: "Classic",
     precio: 1200,
-    imagen: "./img-redux/classic.jpg",
+    imagen: "../img-redux/classic.jpg",
     ingredientes:
       "Pan, medallon de carne, queso, jamón, huevo, tomate, lechuga, aderezos.",
   },
   {
     nombre: "Argenta",
     precio: 1400,
-    imagen: "./img-redux/argen.jpg",
+    imagen: "/img-redux/argen.jpg",
     ingredientes:
       "Pan, medallon de carne, huevo, queso provoleta, salsa criolla, aderezos.",
   },
