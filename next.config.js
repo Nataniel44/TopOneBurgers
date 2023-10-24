@@ -9,5 +9,5 @@ module.exports = {
     path: "",
   },
   // Agrega esta línea para habilitar la exportación estática
-  output: "out",
+  output: "export",
 };
