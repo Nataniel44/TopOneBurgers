@@ -5,12 +5,12 @@ const Card = ({ img, name, price, agregarAlCarrito }) => {
       <article className=" ">
         <img
           src={img}
-          className="w-28 h-24 md:w-56 md:h-56 object-cover rounded-lg md:rounded-t-lg md:rounded-b-none "
+          className="w-32 h-32 md:w-56 md:h-56 object-cover rounded-lg md:rounded-t-lg md:rounded-b-none "
           alt=""
         />
       </article>
       <article className="md:w-56 flex flex-col  md:items-end text-white text-md  gap-2 p-2">
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col md:items-end items-center">
           <h3 className="text-end">{name}</h3>
           <span className="">$ {price}</span>
         </div>

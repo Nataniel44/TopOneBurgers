@@ -24,10 +24,6 @@
 
   position: fixed;
   bottom: 0;
-  left: 0;
-  z-index: 10;
-  margin: 0%;
-  padding: 0%;
 }
 .bg {
   background: rgb(12, 12, 12);

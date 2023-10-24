@@ -37,7 +37,7 @@ const FooterShop = ({
         className={`menu footer ${
           isOpen ? "open" : ""
         } shadow border border-yellow-400 border-4`}
-        initial={{ y: 550 }}
+        initial={{ y: 750 }}
         animate={{ y: isOpen ? 0 : 365 }}
         transition={{ type: "tween", ease: "easeOut", duration: 0.1 }}
       >
