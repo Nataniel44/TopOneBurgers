@@ -27,7 +27,7 @@ const Main = () => {
             </div>
           </div>
         </motion.section>
-        <Header></Header>
+        <Header />
       </main>
     </>
   );
