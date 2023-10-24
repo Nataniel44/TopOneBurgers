@@ -9,7 +9,7 @@ const hamburguesasData = [
   {
     nombre: "Argenta",
     precio: 1400,
-    imagen: "/img-redux/argen.jpg",
+    imagen: "../img-redux/argen.jpg",
     ingredientes:
       "Pan, medallon de carne, huevo, queso provoleta, salsa criolla, aderezos.",
   },
@@ -17,27 +17,27 @@ const hamburguesasData = [
   {
     nombre: "Rúcula y parmesano",
     precio: 1400,
-    imagen: "/img-redux/rucula.jpg",
+    imagen: "../img-redux/rucula.jpg",
     ingredientes:
       "Pan, medallon de carne, queso, jamón, huevo, tomate, lechuga, aderezos.",
   },
   {
     nombre: "Chesse",
     precio: 800,
-    imagen: "/img-redux/cheese.jpg",
+    imagen: "../img-redux/cheese.jpg",
     ingredientes: "Pan, medallon de carne, queso cheddar.",
   },
   {
     nombre: "Top One",
     precio: 1400,
-    imagen: "/img-redux/topone.jpg",
+    imagen: "../img-redux/topone.jpg",
     ingredientes:
       "Pan, medallon de carne, queso, jamón, huevo, tomate, lechuga, aderezos.",
   },
   {
     nombre: "Hulk",
     precio: 1900,
-    imagen: "/img-redux/hulk1.jpg",
+    imagen: "../img-redux/hulk1.jpg",
     ingredientes:
       "Pan, medallon de carne, queso, jamón, huevo, tomate, lechuga, aderezos.",
   },
