@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Card = ({ img, name, price, agregarAlCarrito }) => {
   return (
-    <section className="bg-black flex items-center justify-between pl-3 md:p-0  md:flex-col md:w-56 rounded-lg p-2 shadow-lg shadow-black border-white border-2">
+    <section className="bg-black flex items-center justify-between pl-3 md:p-0  md:flex-col md:w-56 rounded-lg p-2 shadow-lg shadow-black ">
       <article className=" ">
         <img
           src={img}

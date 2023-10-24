@@ -30,7 +30,7 @@ const Nav = ({ children }) => {
   return (
     <>
       <nav
-        className={`bg-yellow-500 p-2 transition-transform sticky top-0 shadow-lg ${
+        className={`bg-yellow-500 p-2 transition-transform sticky top-0 shadow-xl ${
           isNavbarVisible ? "" : "hidden-navbar"
         }`}
       >
@@ -60,24 +60,24 @@ const Nav = ({ children }) => {
               menuOpen ? "block" : "hidden"
             }`}
           >
-            <div className="text-sm lg:flex-grow">
+            <div className="text-md text lg:flex-grow">
               <Link
                 href={"/"}
-                className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-teal-500 mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-black mr-4"
               >
                 Inicio
               </Link>
               <Link
                 href={"/"}
                 className="block mt-4 lg:inline-block lg:mt-0 text-gray-200
-                hover:text-teal-500 mr-4"
+                hover:text-black mr-4"
               >
                 Menú
               </Link>
               <Link
                 href={"/"}
                 className="block mt-4 lg:inline-block lg:mt-0 text-gray-200
-                hover:text-teal-500"
+                hover:text-black"
               >
                 Contacto
               </Link>

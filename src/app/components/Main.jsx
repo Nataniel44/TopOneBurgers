@@ -6,7 +6,7 @@ import Link from "next/link";
 const Main = () => {
   return (
     <>
-      <header className="bg-yellow-500 h-full w-full md:w-7/12 m-auto shadow-lg flex items-center justify-center flex-col">
+      <header className="bg-yellow-500 h-full w-full md:w-9/12 m-auto shadow-lg flex items-center justify-center flex-col">
         <article className="flex flex-col justify-center items-center gap-5">
           <figure className="flex justify-center">
             <img
