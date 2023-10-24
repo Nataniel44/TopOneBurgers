@@ -16,7 +16,7 @@ const Main = () => {
         >
           <div className="flex flex-col justify-center items-center gap-5">
             <img
-              src="/img-redux/33.png"
+              src="./img-redux/33.png"
               className="rounded-full w-48  md:w-2/12  border-yellow-400 border-4 shadow-md"
               alt=""
             />
