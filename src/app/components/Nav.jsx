@@ -68,14 +68,16 @@ const Nav = ({ children }) => {
                 Inicio
               </Link>
               <Link
-                href={"/"}
+                href={"/shop"}
                 className="block mt-4 lg:inline-block lg:mt-0 text-gray-200
                 hover:text-black mr-4"
               >
                 Menú
               </Link>
               <Link
-                href={"/"}
+                href="https://wa.me/3755390616"
+                target="_blank"
+                rel="noreferrer"
                 className="block mt-4 lg:inline-block lg:mt-0 text-gray-200
                 hover:text-black"
               >
