@@ -15,6 +15,7 @@ const FooterShop = ({
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   useEffect(() => {
     const closeFooter = () => {
       setIsOpen(false);
@@ -41,8 +42,8 @@ const FooterShop = ({
         animate={{ y: isOpen ? 1 : 390 }}
         transition={{ type: "tween", ease: "easeOut", duration: 0.1 }}
       >
-        <div className="text-center m-2 flex items-center justify-between ps-3 pe-3">
-          <span className="font-sans text-lg flex items-center justify-center gap-2 wd bg-yellow-500 rounded-2xl ">
+        <div className="text-center m-2 flex items-center justify-between gap-2 ">
+          <span className="text-sm text bg-yellow-500 rounded-full p-2 pr-9 pl-9 ">
             Total: ${price}
           </span>
 
@@ -60,15 +61,15 @@ const FooterShop = ({
               </div>
             )}
           </button>
-          <div className="text-lg md:text-lg text wd">
-            <button
-              onClick={succes}
-              className="bg-green-700 text-white rounded-full p-2 pr-3 pl-3 text-sm shadow-md"
-            >
-              Realizar pedido
-            </button>
-          </div>
+
+          <button
+            onClick={succes}
+            className="bg-green-700 text-white rounded-full p-2 pr-3 pl-3 text-sm shadow-md"
+          >
+            Realizar pedido
+          </button>
         </div>
+
         <div className="flex flex-col items-center justify-end gap-1">
           <div>
             <ul className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:justify-items-center w-6/6 gap-3 p-3">

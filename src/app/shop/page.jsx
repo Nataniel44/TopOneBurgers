@@ -85,7 +85,7 @@ const Page = () => {
             <h2 className="text-5xl text-center font-unica p-2">
               Hamburguesas
             </h2>
-            <figure className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:justify-items-center w-6/6 gap-3 pb-20 p-5">
+            <figure className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:justify-items-center w-6/6 gap-6 pb-20 p-5">
               {hamburguesasData.map((data) => (
                 <div key={data.nombre}>
                   <Card
