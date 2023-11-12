@@ -36,9 +36,12 @@ const Nav = ({ children }) => {
       >
         <div className=" flex items-center justify-between flex-wrap p-2   ">
           <div className="flex items-center flex-shrink-0 text-white mr-6 gap-3">
-            <span className="pl-1 text-2xl font-bold tracking-tighter sm:text-2xl xl:text-2xl/none text-black font-normal">
+            <Link
+              href={"/"}
+              className="pl-1 text-2xl font-bold tracking-tighter sm:text-2xl xl:text-2xl/none text-black font-normal"
+            >
               Top One Burgers
-            </span>
+            </Link>
           </div>
           <div className="block lg:hidden">
             <button

@@ -13,6 +13,7 @@ const Card = ({ img, name, price, agregarAlCarrito }) => {
         <div className="flex flex-col md:items-end items-center">
           <h3 className="text-end">{name}</h3>
           <span className="">$ {price}</span>
+
         </div>
         <button
           onClick={agregarAlCarrito}

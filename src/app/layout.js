@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <NavbarProvider>
           <Nav />
-          <main className="vh-91 md:h-screen">{children}</main>
+          <main className="">{children}</main>
         </NavbarProvider>
       </body>
     </html>

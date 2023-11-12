@@ -42,8 +42,8 @@ const FooterShop = ({
         animate={{ y: isOpen ? 1 : 390 }}
         transition={{ type: "tween", ease: "easeOut", duration: 0.1 }}
       >
-        <div className="text-center m-2 flex items-center justify-between gap-2 ">
-          <span className="text-sm text bg-yellow-500 rounded-full p-2 pr-9 pl-9 ">
+        <div className="text-center m-2 flex items-center justify-between  ">
+          <span className="text-sm text bg-yellow-500 rounded-full p-2 pr-5 pl-5 w-86">
             Total: ${price}
           </span>
 
@@ -70,8 +70,8 @@ const FooterShop = ({
           </button>
         </div>
 
-        <div className="flex flex-col items-center justify-end gap-1">
-          <div>
+        <div className="flex flex-col items-center justify-end gap-1 bg-neutral-800 height-footer rounded-3xl pb-3">
+          <div className=" ">
             <ul className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:justify-items-center w-6/6 gap-3 p-3">
               {hamburguesas.map((hamburguesa, index) => (
                 <div
@@ -96,9 +96,9 @@ const FooterShop = ({
               ))}
             </ul>
           </div>
-          <div className="font-bold text-lg">Precio: ${price}</div>
+          <div className="font-light text-lg text-white">Precio: ${price}</div>
 
-          <div className="flex gap-2">
+          <div className="flex ">
             <div>
               <button
                 onClick={deleteCarrito}

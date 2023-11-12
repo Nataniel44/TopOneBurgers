@@ -6,13 +6,14 @@ import Link from "next/link";
 const Main = () => {
   return (
     <>
-      <header className="bg-yellow-500 h-full w-full md:w-9/12 m-auto shadow-lg flex items-center justify-center flex-col">
+      <header className="bg-yellow-500 vh-91 shadow-lg flex items-center justify-center flex-col w-full md:w-9/12  mx-auto">
         <article className="flex flex-col justify-center items-center gap-5">
           <figure className="flex justify-center">
             <img
-              src="./img-redux/33.png"
-              className="rounded-full w-48  md:w-4/12  lg:w-3/12  shadow-md"
-              alt="logo de top one burgers"
+              src="./img-redux/33.png
+            "
+              className="wd rounded-full"
+              alt=""
             />
           </figure>
 

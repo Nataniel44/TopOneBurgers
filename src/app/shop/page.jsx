@@ -10,6 +10,7 @@ const Page = () => {
   const [hamburguesasSeleccionadas, setHamburguesasSeleccionadas] = useState(
     []
   );
+  const [cantidadTotalHamburguesas, setCantidadTotalHamburguesas] = useState(0);
 
   const agregarAlCarrito = (precio, nombre) => {
     // Verificar si el artículo ya está en el carrito
@@ -35,6 +36,7 @@ const Page = () => {
 
     // Sumar el precio de la hamburguesa al precio total
     setTotalPrecioEnCarrito(totalPrecioEnCarrito + precio);
+    setCantidadTotalHamburguesas(cantidadTotalHamburguesas + 1);
   };
 
   const eliminarHamburguesa = (index) => {

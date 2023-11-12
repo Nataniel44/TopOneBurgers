@@ -69,8 +69,18 @@
 
   text-shadow: 0 -1px 4px #000000;
 }
+body {
+  background-color: #ffca0a;
+}
 .vh-91 {
   height: 90.5vh;
+}
+.w-86 {
+  width: 140px;
+}
+
+.height-footer {
+  height: 390px;
 }
 .t {
   color: #ffca0a;
@@ -84,7 +94,6 @@
 .menu {
   height: 455px;
   background: #ffffff;
-
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   transition: transform 0.3s ease-in-out;
